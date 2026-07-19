@@ -1,6 +1,6 @@
 \# Prior Art Delta Table
 
-Updated: \[today's date]
+Updated: 7/19/26
 
 
 
