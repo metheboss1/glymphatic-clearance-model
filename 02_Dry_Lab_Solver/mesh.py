@@ -8,7 +8,7 @@ r = R_i(t), which pulses with the heartbeat, and the outer (astrocytic
 sleeve) wall at r = R_o, which is rigid and fixed.
 
 Computational space: a fixed rectangle (xi, eta) where
-    xi  = z                                 (axial coordinate, unchanged)
+    xi  = z                                   (axial coordinate, unchanged)
     eta = (r - R_i(t)) / (R_o - R_i(t))      (radial coordinate, in [0, 1])
 
 eta = 0 always sits exactly on the moving inner wall.
@@ -21,6 +21,9 @@ import numpy as np
 
 
 def inner_radius(t, R_i0, a, f):
+    # f default informed by Boster et al. (PNAS 2023), who use ~5 Hz as the
+    # approximate murine cardiac frequency in their own Reynolds-number
+    # estimate for anesthetized, ketamine/xylazine-sedated mice.
     """
     Time-varying inner (vessel) wall radius under pulsatile forcing.
 
@@ -29,9 +32,9 @@ def inner_radius(t, R_i0, a, f):
     t    : float or ndarray -- time (s)
     R_i0 : float -- resting/mean inner radius (m)
     a    : float -- pulsation amplitude as a fraction of R_i0
-                     (placeholder: 0.03; refine once the Boster/Kelley
-                     PNAS methods section gives a literature value)
-    f    : float -- heartbeat frequency (Hz); 1.2 Hz = 72 bpm resting
+                    (placeholder: 0.03; refine once the Boster/Kelley
+                    PNAS methods section gives a literature value)
+    f    : float -- heartbeat frequency (Hz); ~5.0 Hz (Boster et al. 2023)
 
     Returns
     -------
@@ -57,7 +60,7 @@ def grid_speed(t, R_i0, R_o, a, f, eta):
     return dRi_dt * (1 - eta)
 
 
-def generate_mesh(R_i0, R_o, L, n_r=20, n_z=50, a=0.03, f=1.2, t=0.0):
+def generate_mesh(R_i0, R_o, L, n_r=20, n_z=50, a=0.03, f=5.0, t=0.0):
     """
     Build the computational (xi, eta) grid and map it to physical (r, z)
     coordinates at a single instant in time t.
