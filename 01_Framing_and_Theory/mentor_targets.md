@@ -2,19 +2,19 @@
 
 ## Target Mentors (Research Triangle Area)
 
-| Name | Department | One sentence on their most relevant recent work | Specific paper or finding you'll reference in their email |
+| Name | Verified current affiliation | Verified focus | Why relevant here |
 | :--- | :--- | :--- | :--- |
-| **Dr. Richard Superfine** | Applied Physical Sciences (UNC Chapel Hill) | Investigates how strain impacts the diffusivity and localization of large solutes in poroelastic media. | *BPS2026–Strain impacts the diffusivity and localization of large solutes in poroelastic media* (2026) — mechanical modulation of solute transport. |
-| **Dr. Murthy Guddati** | Computational Mechanics (NC State) | Develops frequency-wavenumber domain inversion methods to estimate the viscoelasticity of arterial walls. | *Frequency-wavenumber domain inversion for arterial viscoelasticity* (2026). |
-| **Dr. William Polacheck** | Cellular Mechanotransduction (UNC Chapel Hill) | Studies how specific cellular domains orchestrate the mechanotransduction of fluid shear stress. | *The Notch1 intracellular domain orchestrates mechanotransduction of fluid shear stress* (2026). |
-| **Dr. Caterina Gallippi** | Biomedical Engineering (UNC / NC State) | Develops Quantitative Viscoelastic Response (QVISR) ultrasound to measure dynamic tissue properties. | *Quantitative viscoelastic response (QVISR) ultrasound* (2026). |
-| **Dr. Hossein (Amir) Salahshoor** | Mechanical Engineering & Materials Science (Duke) | Applies data-driven frameworks to identify material properties in heterogeneous viscoelastic media. | *Data-Driven material identification in heterogeneous viscoelastic media* (2026). |
+| **Dr. Richard Superfine** | UNC-Chapel Hill, Applied Physical Sciences (Chair) | Biophysics, mechanobiology, force sensing in living systems, microfluidics | Broad biophysics/mechanics fit; strongest for general force-sensing and instrumentation questions |
+| **Dr. William Polacheck** | UNC/NC State Joint Department of Biomedical Engineering | Microfluidic organ-on-chip models, biofluid mechanics and hemodynamics in the cellular microenvironment, interstitial fluid pressure gradients | Very close fit — his lab explicitly studies fluid-mechanical forces in tissue microenvironments |
+| **Dr. Caterina Gallippi** | UNC/NC State Joint (Lampe) Department of Biomedical Engineering | Ultrasound elasticity imaging — noninvasive measurement of tissue stiffness and fluid thickness | Directly relevant to validating a viscoelastic wall model non-invasively |
+| **Dr. Murthy Guddati** | NC State, Civil, Construction, and Environmental Engineering | Computational mechanics, wave propagation; currently collaborating with Mayo Clinic and Duke on ultrasound-based measurement of arterial wall stiffness | Unusually strong, specific fit — his current work is literally about measuring the same kind of wall viscoelasticity this project models, just via a different route |
+| **Dr. Hossein (Amir) Salahshoor** | Duke University (Civil & Environmental Engineering, and Mechanical Engineering & Materials Science) | Data-driven viscoelasticity, brain tissue mechanics, computational modeling of soft biological materials under ultrasound | Arguably the single closest match of all five — his recent papers are literally about data-driven viscoelastic modeling of brain tissue |
 
 ---
 
 ## Tier-1 Outreach Email Draft (Dr. Richard Superfine)
 
-> **Note:** Do not send yet. Review with a parent/advisor once the Boster/Kelley PNAS methods section reading is complete to finalize the specific technical question.
+> **Note:** Do not send yet. Review with a parent/advisor once the Boster/Kelley PNAS methods section reading is complete to finalize the specific technical question. *Update: Based on the verified table above, consider pivoting this first email to Dr. Salahshoor or Dr. Guddati once the open items are finalized.*
 
 Subject: High school researcher, computational PVS clearance model — question on strain-dependent diffusivity in poroelastic media
 
@@ -43,5 +43,4 @@ central to how I've framed this project.
 
 Sincerely,
 Sanjay
-[phone number -- optional]
 [GitHub repository link]
