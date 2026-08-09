@@ -30,3 +30,33 @@ metric to predict a specific, falsifiable critical Deborah number at which phase
 
 and clearance both undergo a sudden, quantifiable transition.
 
+
+
+\## Day 5 finding (August 4, 2026)
+
+
+
+The z-independent (uniform-pulsation) wall model used in Days 2-4, while
+
+necessary infrastructure, is mathematically proven (and numerically
+
+confirmed at De = 0.01, 0.5, and 5.0) to produce exactly zero net axial
+
+flow, regardless of the wall's Kelvin-Voigt Deborah number. This follows
+
+directly from the ALE momentum equation with no external pressure
+
+gradient being linear and homogeneous in u. Hypothesis 1 (Phase Lag Phi
+
+between wall motion and fluid flow) cannot be meaningfully tested until
+
+the model is extended to include an axial traveling-wave component,
+
+R\_i(z,t) rather than R\_i(t). This does not invalidate Days 2-4's work --
+
+the mesh, the validated flow solver, and the Kelvin-Voigt wall model are
+
+all necessary components of the traveling-wave model and carry over
+
+directly. Scoped as the primary objective of Day 6.
+
